@@ -6,6 +6,7 @@ function App() {
   //   { name: "defensa", x: "100", y: "100" },
   //   { name: "portero", x: "20", y: "0" },
   // ];
+
   return (
     <div className="App">
       <header className="App-header">
