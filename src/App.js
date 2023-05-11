@@ -1,5 +1,8 @@
 import soccerField from "./soccerfield.png";
+import { FaTshirt } from "react-icons/fa";
 import "./App.css";
+import { Button } from "./components/button";
+import React, { useState } from "react";
 
 function App() {
   // const players = [
@@ -18,39 +21,70 @@ function App() {
           );
         })} */}
 
-        <div className="Player1">
-          <button>Jugador1</button>
-        </div>
+        <button className="Player1">
+          <FaTshirt className="Icon" color="red" />
+          Jugador1
+        </button>
 
         <div className="Player2">
-          <button>Jugador2</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador2
+          </button>
         </div>
         <div className="Player3">
-          <button>Jugador3</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador3
+          </button>
         </div>
         <div className="Player4">
-          <button>Jugador4</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador4
+          </button>
         </div>
         <div className="Player5">
-          <button>Jugador5</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador5
+          </button>
         </div>
         <div className="Player6">
-          <button>Jugador6</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador6
+          </button>
         </div>
         <div className="Player7">
-          <button>Jugador7</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador7
+          </button>
         </div>
         <div className="Player8">
-          <button>Jugador8</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador8
+          </button>
         </div>
         <div className="Player9">
-          <button>Jugador9</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador9
+          </button>
         </div>
         <div className="Player10">
-          <button>Jugador10</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador10
+          </button>
         </div>
         <div className="Player11">
-          <button>Jugador11</button>
+          <button>
+            <FaTshirt className="Icon" color="red" />
+            Jugador11
+          </button>
         </div>
         <img className="soccerField" src={soccerField} alt="Soccer Field" />
       </header>

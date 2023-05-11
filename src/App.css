@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 .soccerField{
   width: 100%;
@@ -20,7 +17,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: red;
 }
 
 .Player1 {
@@ -28,7 +24,7 @@
   top: 620px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player2 {
@@ -37,7 +33,7 @@
   right: 280px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player3 {
@@ -46,7 +42,7 @@
   right: 500px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player4 {
@@ -55,7 +51,7 @@
   right: 700px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player5 {
@@ -64,7 +60,7 @@
   right: 900px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player6 {
@@ -73,7 +69,7 @@
   right: 700px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player7 {
@@ -82,7 +78,7 @@
   right: 500px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player8 {
@@ -91,7 +87,7 @@
   right: 900px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player9 {
@@ -100,7 +96,7 @@
   right: 280px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player10 {
@@ -109,7 +105,7 @@
   right: 700px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
 .Player11 {
@@ -118,8 +114,10 @@
   right: 500px;
   width: 80px;
   height: 80px;
-  border: 3px solid;
+  background: transparent;
 }
 
-
-
+.Icon {
+  font-size: 3em;
+  margin-right: 0em;
+}
