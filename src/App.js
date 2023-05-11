@@ -1,29 +1,24 @@
 import soccerField from "./soccerfield.png";
 import { FaTshirt } from "react-icons/fa";
 import "./App.css";
-import { Button } from "./components/button";
 import React, { useState } from "react";
 
 function App() {
-  // const players = [
-  //   { name: "defensa", x: "100", y: "100" },
-  //   { name: "portero", x: "20", y: "0" },
-  // ];
+  const [buttonName, setButtonName] = useState("Jugador1");
+  const [newButtonName, setNewButtonName] = useState("");
+  const handleButtonClick = () => {
+    const newButtonName = prompt("Ingrese su nombre:");
+    if (newButtonName) {
+      setButtonName(newButtonName);
+    }
+  };
 
   return (
     <div className="App">
       <header className="App-header">
-        {/* {players.map((player) => {
-          return (
-            <div className="Player1" style={{ top: player.y, right: player.x }}>
-              <button>{player.name}</button>
-            </div>
-          );
-        })} */}
-
-        <button className="Player1">
+        <button className="Player1" onClick={handleButtonClick}>
           <FaTshirt className="Icon" color="red" />
-          Jugador1
+          {buttonName}
         </button>
 
         <div className="Player2">
