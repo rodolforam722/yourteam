@@ -1,14 +1,3 @@
-import { FaTshirt } from "react-icons/fa";
-
-export function Button() {
-  return (
-    <button className="Player1">
-      <FaTshirt className="Icon" color="red" />
-      Jugador1
-    </button>
-  );
-}
-
 import React, { useState } from "react";
 
 function App() {

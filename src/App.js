@@ -5,7 +5,6 @@ import React, { useState } from "react";
 
 function App() {
   const [buttonName, setButtonName] = useState("Jugador1");
-  const [newButtonName, setNewButtonName] = useState("");
   const handleButtonClick = () => {
     const newButtonName = prompt("Ingrese su nombre:");
     if (newButtonName) {
